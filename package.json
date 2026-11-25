@@ -1,0 +1,14 @@
+{
+  "name": "barbershop-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for barbershop appointment notifications",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
